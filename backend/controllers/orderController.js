@@ -1,3 +1,6 @@
+import 'dotenv/config';
+//dotenv.config();
+
 // Importing the Stripe library for payment processing
 import Stripe from "stripe";
 import orderModel from "../models/orderModel.js";
